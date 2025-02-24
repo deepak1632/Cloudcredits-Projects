@@ -42,12 +42,6 @@ Email communication is an essential part of our daily lives, but spam emails con
 
 - **TF-IDF Vectorization** : The cleaned email texts are transformed into numerical feature vectors using the TF-IDF technique, which weighs each word by its importance in the dataset.
 
-#### Model Training and Evaluation
-  
-- **Profit Margin %** = DIVIDE(SUM(Sales_Data[Profit]), SUM(Sales_Data[Revenue])) * 100
-  
-- **Revenue Contribution %** = DIVIDE(SUM(Sales_Data[Revenue]), CALCULATE(SUM(Sales_Data[Revenue]), ALL(Sales_Data[Product_Category])))
-
 ### How It Detects Spam Emails
 
 1. **Data Cleaning**: The clean_text function normalizes email content by removing HTML tags, punctuation, and extraneous characters, ensuring that the model focuses on the actual text.
